@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-body-1 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.text-body-2 {
+  font-size: 0.875rem;
+  line-height: 1.325rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.text-h1 {
+  font-size: 4.0rem;
+  line-height: 3.2rem;
+  font-weight: 400;
+  letter-spacing: -1.5px;
+}
+
+.text-subtitle-1 {
+  font-size:  1.25rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.text-subtitle-2 {
+  font-size:  1rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.text-h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  letter-spacing: 0em;
+}
+
+.text-h5 {
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.title-description {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3.5rem;
+  height: 100vh;
+}
+
+.nav-link {
+  color: hsla(0,0%,100%,.55) !important;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #fff !important;
+}
+
+.nav-icons {
+  height: 30px;
+  width: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .text-body-2 {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+  }
+
+  .text-subtitle-2 {
+    font-size:  0.9rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+  }
+
+  .text-h1 {
+    font-size: 3.0rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+  }
+
+  .text-h4 {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+  }
+  
+  .text-h5 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+  }
+}
